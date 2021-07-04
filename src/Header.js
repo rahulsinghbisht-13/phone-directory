@@ -1,11 +1,12 @@
 import React from 'react';
 
+// importing Header.css into Header.js(external styling)
+import './Header.css';
+
 // Functional component
 const Header = function() {
-    // Inline style
-    const headerStyle = {textAlign: 'center', padding: 20, background: '#000', color: 'white', textTransform: 'uppercase'};
     return (
-        <div style={headerStyle}>
+        <div className="header">
             Phone-Directory
         </div>
     )
