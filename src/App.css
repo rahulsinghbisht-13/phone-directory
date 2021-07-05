@@ -3,26 +3,6 @@
     font-size: 20px;
 }
 
-.component-body-container {
-    padding: 20px;
-}
-
-.custom-btn {
-    padding: 10px;
-    border: none;
-    margin-right: 10px;
-    text-transform: uppercase;
-    width: 80px;
-    font-size: 0.9rem;
-    cursor: pointer;
-    outline: none;
-}
-
-.add-btn {
-    background: #7ab97a;
-    color: #fff;
-}
-
 .grid-container {
     display: grid;
     grid-template-columns: 40% 30% auto;
@@ -49,7 +29,7 @@
     font-size: 20px;
 }
 
-#delete {
+.delete-btn {
     padding: 10px;
     width: 90px;
     background-color: #fa9c9c;
